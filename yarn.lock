@@ -903,6 +903,18 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
+"@types/google-maps@^3.2.2":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@types/google-maps/-/google-maps-3.2.2.tgz#aa97b0880be787d7fb04662707e36125c2e6e2d8"
+  integrity sha512-/XPVfS28VzUdE/HlmBRoe5ii1nNMyWujyRfRY08bD/JgmPlWSiY8enB2dqTe9mlc3kULq7LfFa1wcupM+lQfqA==
+  dependencies:
+    "@types/googlemaps" "*"
+
+"@types/googlemaps@*", "@types/googlemaps@^3.39.1":
+  version "3.39.7"
+  resolved "https://registry.yarnpkg.com/@types/googlemaps/-/googlemaps-3.39.7.tgz#70c1af22839976cfd462858c882b54f3006f0b08"
+  integrity sha512-U8ZjnjfGiZXzun8jIDOZ/5Gt5Ky07B9pBhFbgzten1S364bnuueFsCt5e5V7Wn55o26NkLWgc6becL+j401bRw==
+
 "@types/json-schema@^7.0.4":
   version "7.0.5"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.5.tgz#dcce4430e64b443ba8945f0290fb564ad5bac6dd"
@@ -3878,6 +3890,13 @@ globby@^9.2.0:
     ignore "^4.0.3"
     pify "^4.0.1"
     slash "^2.0.0"
+
+google-maps@^4.2.3:
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/google-maps/-/google-maps-4.2.3.tgz#0cf7383154b80db9bbddf2a96d298adfea09e765"
+  integrity sha512-RGKlYq57/3tKq+o03+25CAOHWq6lAOPPy4knIeVfFw3xmZtwaJsMPuQnQNnITf/BRIC0EBqq0YbbCFW+6q5P0Q==
+  dependencies:
+    "@types/googlemaps" "^3.39.1"
 
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.2:
   version "4.2.4"
@@ -7891,11 +7910,6 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
-vue-cli-plugin-vue-static-map@~1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/vue-cli-plugin-vue-static-map/-/vue-cli-plugin-vue-static-map-1.0.0.tgz#0a6743b4b8167555752d70f3aa4030457e828d49"
-  integrity sha512-Sa6VPXv/91KeMQ2x3C+P3bPowUsQp+ob7XmkZDZXb5q+6HJTrL4+749Vh4FH++b/TLPZ4uUIRuzkw+QY8HKI1g==
-
 vue-eslint-parser@^7.0.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-7.1.0.tgz#9cdbcc823e656b087507a1911732b867ac101e83"
@@ -7924,11 +7938,6 @@ vue-loader@^15.9.2:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
-vue-static-map@3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/vue-static-map/-/vue-static-map-3.0.2.tgz#7a3d651809d6a2e7a6f0b681d706d721ecf1fbbc"
-  integrity sha512-imNKDTd6Xe9UKSRD7xWTO+LHsl63WJHMmNJfXAlPjdpD9PJpyvhbcpoMcZi1v0UmG/t1tqtqWW5IqVMq9OZqcA==
-
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/vue-style-loader/-/vue-style-loader-4.1.2.tgz#dedf349806f25ceb4e64f3ad7c0a44fba735fcf8"
@@ -7954,6 +7963,11 @@ vue@^2.6.11:
   version "2.6.11"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.11.tgz#76594d877d4b12234406e84e35275c6d514125c5"
   integrity sha512-VfPwgcGABbGAue9+sfrD4PuwFar7gPb1yl1UK1MwXoQPAw0BKSqWfoYCT/ThFrdEVWoI51dBuyCoiNU9bZDZxQ==
+
+vuelidate@^0.7.5:
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/vuelidate/-/vuelidate-0.7.5.tgz#ff48c75ae9d24ea24c24e9ea08065eda0a0cba0a"
+  integrity sha512-GAAG8QAFVp7BFeQlNaThpTbimq3+HypBPNwdkCkHZZeVaD5zmXXfhp357dcUJXHXTZjSln0PvP6wiwLZXkFTwg==
 
 watchpack-chokidar2@^2.0.0:
   version "2.0.0"

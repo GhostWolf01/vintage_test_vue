@@ -1,18 +1,19 @@
 <template>
   <section id="app">
     <Contacts/>
-    <Map/>
+    <MapSection/>
     <ContactUsForm/>
   </section>
 </template>
 
 <script>
-import Contacts from './components/Contacts.vue'
-import Map from './components/Map.vue'
-import ContactUsForm from './components/ContactUsForm.vue'
+import Contacts from './components/Contacts.vue';
+import MapSection from './components/MapSection.vue';
+import ContactUsForm from './components/ContactUsForm.vue';
+
 export default {
   components: {
-    Contacts, Map, ContactUsForm
+    Contacts, MapSection, ContactUsForm,
   }
 }
 </script>

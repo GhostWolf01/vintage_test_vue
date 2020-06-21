@@ -11,14 +11,14 @@
     </div>
 </template>
 
-<script>
-export default {
-    
-}
-</script>
 
 <style lang="scss">
+    @keyframes open {
+        from {transform: scale(0);}
+        to { transform: scale(1);}
+    }
     .city{
+        animation: open 1s;
         &__place-name{
             font-size: 26px;
             line-height: 20px;
