@@ -1,0 +1,1 @@
+GitHubPage: https://ghostwolf01.github.io/vintage_test_vue/
